@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apcsCamp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a013::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a013-Debug-23af4504702a09f934ea.json",
+					"name" : "a013",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a017::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a017-Debug-e0fecba96de6f657fd00.json",
+					"name" : "a017",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "f377::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-f377-Debug-d73c26372fe7fc1726aa.json",
+					"name" : "f377",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "f698::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-f698-Debug-b91654738ae90e970cd5.json",
+					"name" : "f698",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test01-Debug-cd43b7fba9522488b82e.json",
+					"name" : "test01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toj100::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toj100-Debug-48589ce262bc35380967.json",
+					"name" : "toj100",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toj101::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toj101-Debug-665cb5c553ca617ca8c2.json",
+					"name" : "toj101",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toj104::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toj104-Debug-39c251ad4575e43a8965.json",
+					"name" : "toj104",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toj106::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toj106-Debug-58610ee252d604314728.json",
+					"name" : "toj106",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toj107::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toj107-Debug-a622b6782f6bef0e3d3f.json",
+					"name" : "toj107",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toj5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toj5-Debug-77d103f0ae40c76c99bd.json",
+					"name" : "toj5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toj99::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toj99-Debug-844a2346f43bdde68ca7.json",
+					"name" : "toj99",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zja020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zja020-Debug-998ebf117ee0a3fd8840.json",
+					"name" : "zja020",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zja024::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zja024-Debug-68b896c0bdb699415237.json",
+					"name" : "zja024",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zja034::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zja034-Debug-d24b1ee3739ae2011106.json",
+					"name" : "zja034",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/tingy/Documents/computerScience/zj&toj/cmake-build-debug",
+		"source" : "C:/Users/tingy/Documents/computerScience/zj&toj"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
