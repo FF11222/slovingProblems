@@ -4,8 +4,12 @@ int n, m;
 string cookies[1000][1000];
 int sugar[1000][1000];
 
+void calculating() {
+
+}
+
 string solve() {
-    pair<int, int> cal[n][m];
+    pair<int, int> cookiesCal[n][m];
 
     
 }
