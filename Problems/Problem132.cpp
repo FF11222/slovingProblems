@@ -1,10 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool cmp(pair<int, int> a, pair<int, int> b) {
-    return (a.first - a.second) < (b.first - b.second);
-}
-
 int main() {
     int n;
     cin >> n;
@@ -14,30 +10,31 @@ int main() {
         cin >> a[i];
     }
 
-    int lp = 0, rp = 0;
-    vector<int> count(1000001, -1);
-    vector<pair<int, int>> sizes;
+    int lp = 0, maxLength = -1, maxL, maxR;
+    bool check[1000001] = {false};
+
     for (int i = 0; i < n; i++) {
-        if (count[a[i]] > 0) {
-            sizes.emplace_back(i-1, lp);
-            lp = count[a[i]] + 1;
-            rp = i;
-            for (int j = lp -1; j >= 0; j--) {
-                count[a[j]] = -1;
+        if (check[a[i]]) {
+            check[a[i]] = false;
+
+            while (check[a[lp]]) {
+                check[a[lp]] = false;
+                lp++;
             }
-            count[a[lp]] = lp;
-            count[a[rp]] = rp;
-        } else {
-            count[a[i]] = i;
-            rp++;
+            lp++;
+        }
+
+        check[a[i]] = true;
+
+        if (i - lp + 1 > maxLength) {
+            maxL = lp;
+            maxR = i;
+            maxLength = i-lp+1;
         }
     }
-    sizes.emplace_back(rp, lp);
-
-    pair<int, int> max = *max_element(sizes.begin(), sizes.end(), cmp);
 
     string ans;
-    for (int i = max.second; i <= max.first; i++) {
+    for (int i = maxL; i <= maxR; i++) {
         ans += to_string(a[i]) + " ";
     }
     ans.pop_back();
